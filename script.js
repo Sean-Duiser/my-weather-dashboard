@@ -53,8 +53,6 @@ function handleSubmission (event) {
 
 searchBtn.addEventListener('click', handleSubmission);
 
-// currently the app requires an extra button click (check event listener function) to produce a 2nd result
-
 // need to give lat/long localStorage keys unique names each time they're saved
 // localStorage.key could be used to ensure "past search" buttons persist on page
 // a loop that runs on page load that iterates through all of they keys, and runs getWeather for each of them
