@@ -6,27 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <title>My Weather Dashboard</title>
 </head>
 
 <body>
     <form id="searchSide">
         <h1>Weather Dashboard</h1>
-        <div>
+        <div class="container">
             <input type="text" id="query" name="query">
         </div>
-        <div>
+        <div class="container">
             <button type="submit">Search</button>
         </div>
     </form>
 
     <main>
-        <h3>Current Weather Data</h3>
-        <section id="displaySide">
-    
+        <h3 id="bigDisplay">Current Weather Data</h3>
+        <section id="displaySide" class="row">
+
         </section>
     </main>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
