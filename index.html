@@ -10,16 +10,23 @@
 </head>
 
 <body>
-    <header>
+    <form id="searchSide">
         <h1>Weather Dashboard</h1>
-    </header>
+        <div>
+            <input type="text" id="query" name="query">
+        </div>
+        <div>
+            <button type="submit">Search</button>
+        </div>
+    </form>
 
-    <main id="main-display">
-        <input type="text" id="cityLookup">
-        <button id="searchBtn">Search</button>
+    <main>
+        <h3>Current Weather Data</h3>
+        <section id="displaySide">
+    
+        </section>
     </main>
 
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
-
 </html>
